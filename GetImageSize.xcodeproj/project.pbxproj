@@ -15,6 +15,7 @@
 		7A789DB8215DBF3A004A10BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A789DB7215DBF3A004A10BD /* main.m */; };
 		7A789DC2215DBF3A004A10BD /* GetImageSizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A789DC1215DBF3A004A10BD /* GetImageSizeTests.m */; };
 		7A789DCD215DBF3A004A10BD /* GetImageSizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A789DCC215DBF3A004A10BD /* GetImageSizeUITests.m */; };
+		7A789DDC215DC130004A10BD /* UIImage+ImgSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A789DDB215DC130004A10BD /* UIImage+ImgSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7A789DC8215DBF3A004A10BD /* GetImageSizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetImageSizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A789DCC215DBF3A004A10BD /* GetImageSizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetImageSizeUITests.m; sourceTree = "<group>"; };
 		7A789DCE215DBF3A004A10BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A789DDA215DC130004A10BD /* UIImage+ImgSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImgSize.h"; sourceTree = "<group>"; };
+		7A789DDB215DC130004A10BD /* UIImage+ImgSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImgSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		7A789DA7215DBF39004A10BD /* GetImageSize */ = {
 			isa = PBXGroup;
 			children = (
+				7A789DDA215DC130004A10BD /* UIImage+ImgSize.h */,
+				7A789DDB215DC130004A10BD /* UIImage+ImgSize.m */,
 				7A789DA8215DBF39004A10BD /* AppDelegate.h */,
 				7A789DA9215DBF39004A10BD /* AppDelegate.m */,
 				7A789DAB215DBF39004A10BD /* ViewController.h */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A789DDC215DC130004A10BD /* UIImage+ImgSize.m in Sources */,
 				7A789DAD215DBF39004A10BD /* ViewController.m in Sources */,
 				7A789DB8215DBF3A004A10BD /* main.m in Sources */,
 				7A789DAA215DBF39004A10BD /* AppDelegate.m in Sources */,
